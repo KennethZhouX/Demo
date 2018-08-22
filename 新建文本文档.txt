@@ -1,1 +1,8 @@
 https://www.cnblogs.com/zhaoyongkai/p/9364851.html
+
+
+2018-08-22T15:43:19.036091Z 5 [Note] [MY-010454] [Server] A temporary password is generated for root@localhost: Y+V8h-e9Q.SJ
+
+server=localhost;port=3306;user=fxhnews;password=fxhnews2018;database=fxhlog;
+
+dotnet ef dbcontext scaffold "server=localhost;user=root;password=Y+V8h-e9Q.SJ;port=3306;database=test;" "Pomelo.EntityFrameworkCore.MySql"-o EF -f
